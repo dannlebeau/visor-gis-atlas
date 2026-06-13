@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.6620, -33.4700], [-70.6540, -33.4700],
+          [-70.6540, -33.4760], [-70.6620, -33.4760],
+          [-70.6620, -33.4700]
+        ]]
+      },
+      "properties": { "nombre": "Zona inundación Río Mapocho – Sector Norte", "tipo": "Inundación fluvial", "nivel": "Alto", "descripcion": "Área de desborde histórico ante eventos de lluvia intensa", "año": 2023, "area": "42 ha" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-70.6450, -33.4800], [-70.6380, -33.4800],
+          [-70.6380, -33.4850], [-70.6450, -33.4850],
+          [-70.6450, -33.4800]
+        ]]
+      },
+      "properties": { "nombre": "Zona inundación Zanjón de la Aguada", "tipo": "Inundación fluvial", "nivel": "Medio", "descripcion": "Sector de riesgo moderado por desborde de estero", "año": 2023, "area": "18 ha" }
+    }
+  ]
+}

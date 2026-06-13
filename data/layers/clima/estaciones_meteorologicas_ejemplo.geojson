@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.7853, -33.3939] },
+      "properties": { "nombre": "Estación Pudahuel", "tipo": "Aeroportuaria", "comuna": "Pudahuel", "temperatura": 14.2, "precipitacion": 312, "humedad": 71, "estado": "Activa" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.5500, -33.5400] },
+      "properties": { "nombre": "Estación Tobalaba", "tipo": "Sinóptica", "comuna": "Las Condes", "temperatura": 15.8, "precipitacion": 284, "humedad": 65, "estado": "Activa" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6710, -33.3600] },
+      "properties": { "nombre": "Estación Quinta Normal", "tipo": "Climatológica", "comuna": "Quinta Normal", "temperatura": 14.5, "precipitacion": 278, "humedad": 73, "estado": "Activa" }
+    }
+  ]
+}

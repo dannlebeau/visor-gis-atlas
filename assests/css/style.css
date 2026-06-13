@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex-grow:1;
+}
+
+.central-map{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+#map{
+    width: 100;
+    height: 100%;
+}
+
+/*Configuración de tabla*/
+.puntos-table{
+    border-radius: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*Estilo de botones*/
+
+#button, #buttons-container{
+    background-color: burlywood;
+    height: 10%;
+    width: 10%;
+    align-items: center;
+
+}
+
+/*Estilos del footer*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    display: block;
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6506, -33.4569] },
+      "properties": { "nombre": "Colegio República de Siria", "tipo": "Municipal", "comuna": "Santiago", "matriculados": 1240, "nivel": "Básico y Medio", "direccion": "Av. Matta 1234" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6443, -33.4401] },
+      "properties": { "nombre": "Liceo Barros Borgoño", "tipo": "Municipal", "comuna": "Providencia", "matriculados": 980, "nivel": "Medio", "direccion": "Condell 1301" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6678, -33.4533] },
+      "properties": { "nombre": "Colegio San Ignacio", "tipo": "Particular Subvencionado", "comuna": "Santiago", "matriculados": 1560, "nivel": "Básico y Medio", "direccion": "Alonso Ovalle 1285" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6280, -33.4722] },
+      "properties": { "nombre": "Colegio Instituto Nacional", "tipo": "Municipal", "comuna": "Santiago", "matriculados": 2100, "nivel": "Medio", "direccion": "Arturo Prat 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6185, -33.4510] },
+      "properties": { "nombre": "Colegio Santa María", "tipo": "Particular Pagado", "comuna": "Ñuñoa", "matriculados": 890, "nivel": "Básico y Medio", "direccion": "Irarrázaval 4150" }
+    }
+  ]
+}

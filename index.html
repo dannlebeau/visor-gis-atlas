@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Favicons-->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+    <!--Libreria Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Iconos desde Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <section>
+
+    </section>
+    <!--===========Sección de titulo===========-->
+    <section>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur itaque doloribus, dicta soluta ducimus voluptatibus magni veniam harum natus quibusdam nostrum aliquam voluptate, doloremque necessitatibus eveniet incidunt ut in nemo?</p>
+    </section>
+    <br>
+    <!--===========Sección de Mapa Central==========-->
+    <section class="central-map"> 
+      <div id="map"></div>
+    </section>
+    
+    <div id="radio-container">
+
+        <input type="radio" id="radio-5m" name="radio-selector" value="5" checked>
+        <label for="radio-5m">5 metros</label>
+
+        <input type="radio" id="radio-10m" name="radio-selector" value="10">
+        <label for="radio-10m">10 metros</label>
+
+
+        <input type="radio" id="radio-15m" name="radio-selector" value="15">
+        <label for="radio-15m">15 metros</label>
+
+        <input type="radio" id="radio-20m" name="radio-selector" value="20">
+        <label for="radio-20m">20 metros</label>
+
+        <input type="radio" id="radio-25m" name="radio-selector" value="25">
+        <label for="radio-25m">25 metros</label>
+
+        <input type="radio" id="radio-30m" name="radio-selector" value="30">
+        <label for="radio-30m">30 metros</label>
+
+        <input type="radio" id="radio-35m" name="radio-selector" value="35">
+        <label for="radio-35m">35 metros</label>
+
+        <input type="radio" id="radio-1000m" name="radio-selector" value="1000">
+        <label for="radio-1000m">1000 metros</label>
+    </div>
+
+    <h1>Tabla de Puntos de Zonas Inseguras</h1>
+    <table id="puntos-table">
+      <tr>
+        <th>ID</th>
+        <th>Longitud</th>
+        <th>Latitud</th>
+        <th>Radio</th>
+        <th>Acción</th>
+      </tr>
+    </table>
+    <button id="button">Exportar GeoJSON</button>
+    <br>
+    <!--=========Se agregan botones desde Js==========-->
+    <button id="buttons-container"></button>
+    <br><br><br><br><br> 
+    <section class="footer-section">
+      <div class="container">
+        <footer>
+            <a class="" href="#">
+                <img src="" alt="" class="logo_esquina">
+            </a>
+            <p>Elaborado por Dann LeBeau</p>
+            <p>Todos los derechos reservados &copy; 2023</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-facebook icon"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
+              <li><a href="https://github.com/dannlebeau"><i class="fab fa-github icon"></i></a></li>
+            </ul>
+        </footer>
+      </div>
+    </section>
+    <!--Conexión para archivos Js-->
+    <script src="/assests/js/script.js"></script>
+    <!--SCRIPT para guardar-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+
+  </body>
+</html>

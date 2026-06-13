@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6480, -33.4590] },
+      "properties": { "nombre": "Hospital San Borja Arriarán", "tipo": "Hospital Base", "comuna": "Santiago", "camas": 565, "nivel": "Terciario", "telefono": "2 2574 8100" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6570, -33.4470] },
+      "properties": { "nombre": "Hospital Clínico Universidad de Chile", "tipo": "Hospital Clínico", "comuna": "Independencia", "camas": 480, "nivel": "Terciario", "telefono": "2 2978 8000" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6223, -33.4630] },
+      "properties": { "nombre": "CESFAM Ñuñoa", "tipo": "CESFAM", "comuna": "Ñuñoa", "camas": 0, "nivel": "Primario", "telefono": "2 2343 5700" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6611, -33.4380] },
+      "properties": { "nombre": "Clínica Las Condes", "tipo": "Clínica Privada", "comuna": "Las Condes", "camas": 318, "nivel": "Terciario", "telefono": "2 2210 4000" }
+    }
+  ]
+}

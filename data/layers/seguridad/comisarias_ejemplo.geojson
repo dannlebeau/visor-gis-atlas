@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6489, -33.4561] },
+      "properties": { "nombre": "33ª Comisaría Santiago Centro", "tipo": "Carabineros", "comuna": "Santiago", "efectivos": 145, "telefono": "600 600 2440", "direccion": "Av. España 1105" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6358, -33.4422] },
+      "properties": { "nombre": "24ª Comisaría Providencia", "tipo": "Carabineros", "comuna": "Providencia", "efectivos": 98, "telefono": "600 600 2440", "direccion": "Av. Providencia 2050" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.6544, -33.4680] },
+      "properties": { "nombre": "PDI – Brigada Investigadora", "tipo": "PDI", "comuna": "Santiago", "efectivos": 60, "telefono": "2 2708 0000", "direccion": "Gral. Mackenna 1314" }
+    }
+  ]
+}
